@@ -1,0 +1,39 @@
+/* 기존 스타일에서 추가/수정 */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#answer-input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+#answer-input:focus {
+    border-color: #3498db;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submit-btn:hover {
+    background-color: #2980b9;
+}
+
+#progress {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+}
